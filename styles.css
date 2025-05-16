@@ -1,0 +1,40 @@
+* {
+ color: white;
+}
+.container {
+
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    
+}
+h1 {
+    margin-right: 95px;
+    margin-top: 0;
+}
+a {
+    text-decoration: none;
+}
+.links {
+    display: flex;
+    gap: 16px;
+}
+.sub-text {
+    display:flex;
+    justify-content: space-around;
+}
+.blue {
+    background-color: #1f2937;
+}
+button {
+    background-color: blue;
+}
+img {
+    height: 200px;
+    width: auto;
+    padding: 10px;
+}
+.random {
+    background-color: black;
+}
