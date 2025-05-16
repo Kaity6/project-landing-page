@@ -29,7 +29,7 @@ a {
     padding-top: 20px;
     
 }
-p {
+.square-text {
     padding-left: 12px;
     width: 170px;
     text-align: center;
@@ -69,4 +69,20 @@ img {
     flex-direction: column;
     align-items: center;
     
+}
+.inspiring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 220px;
+}
+.inspiration {
+    width: 500px;
+    text-align: left;
+}
+.deep {
+    align-self: flex-end;
+    margin-bottom: 49px;
+    font-weight: bold;
 }
