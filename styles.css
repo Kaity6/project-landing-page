@@ -10,8 +10,9 @@
     
 }
 h1 {
-    margin-right: 95px;
+    margin-right: 400px;
     margin-top: 0;
+    padding: 7px;
 }
 a {
     text-decoration: none;
@@ -19,22 +20,53 @@ a {
 .links {
     display: flex;
     gap: 16px;
+    padding: 7px;
+    margin-left: 150px;
 }
 .sub-text {
     display:flex;
     justify-content: space-around;
+    padding-top: 20px;
+    
+}
+p {
+    padding-left: 12px;
+    width: 170px;
+    text-align: center;
+    padding: 0;
 }
 .blue {
     background-color: #1f2937;
 }
 button {
     background-color: blue;
+    margin-left: 12px;
 }
 img {
     height: 200px;
     width: auto;
     padding: 10px;
+    margin-left: 0;
+
+}
+.random, .inspiring, .call, .footer {
+    background-color: black;
+}
+.square {
+    border: 2px solid blue;
+    height: 113px;
+    width: 113px;
+    
 }
 .random {
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.first, .second, .third, .fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
