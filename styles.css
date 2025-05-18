@@ -86,3 +86,14 @@ img {
     margin-bottom: 49px;
     font-weight: bold;
 }
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
